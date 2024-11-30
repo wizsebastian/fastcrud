@@ -12,7 +12,7 @@ public class CorsConfiguration {
     public CorsFilter corsFilter() {
         org.springframework.web.cors.CorsConfiguration corsConfiguration = new org.springframework.web.cors.CorsConfiguration();
         corsConfiguration.addAllowedOrigin("http://localhost:3000"); // Dominio del frontend
-        corsConfiguration.addAllowedOrigin("https://my-frontend.vercel.app"); // Dominio desplegado
+        corsConfiguration.addAllowedOrigin("https://crudfast.netlify.app"); // Dominio desplegado
         corsConfiguration.addAllowedHeader("*");
         corsConfiguration.addAllowedMethod("*");
 
